@@ -46,6 +46,9 @@
   }
   
   .banner_inner .content .search_box {
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
     position: relative;
   }
   

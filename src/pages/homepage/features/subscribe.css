@@ -1,0 +1,89 @@
+
+
+.subcribe_main{
+    background: #4D2C5E;
+   background-image: url("../../../assets/subscribe_banner.svg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 1100px 330px;
+    width: 1100px;
+    height: 320px;
+    margin: auto;
+    border-radius: 14px 14px 14px 14px;
+  align-content: center;
+   
+}
+.grid-subcribe-container {
+    display: grid;
+    
+    justify-content: center;
+    grid-template-columns: auto; /*Make the grid smaller than the container*/
+    gap: 10px;
+   
+    padding: 10px;
+  }
+  
+  .grid-subcribe-container > div  p{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .grid-subcribe-container > div  h1{
+    font-family: Poppins;
+    font-size:30px;
+    font-weight: 600;
+    line-height: 30.8px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+
+  }
+
+  .grid-subcribe-container .subscribe_box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+
+  }
+
+  .grid-subcribe-container .subscribe_box .email_box_input {
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 96px 96px 96px 96px;
+    background-image: url("/src/assets/email.png");
+  background-position: 13px 8px; 
+  background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 23.44px;
+    text-align: left;
+    color: #0F335E;
+    padding: 12px 20px 12px 50px;
+  }
+  
+  .grid-subcribe-container .subscribe_box .email_box_btn {
+    height: 36px;
+    width: 100px;
+    background: #FF7426;
+    ;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    /* line-height: 29.3px; */
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 50px;
+    border: none;
+
+    position: absolute;
+       right: 0.5%;
+
+    }

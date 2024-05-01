@@ -61,7 +61,7 @@ header .nav_links ul li.btn_sign a {
 
 
 /* footer */
-footer {
+/* footer {
   background: #FDF8EE;
   padding: 20px 0px;
 }
@@ -69,5 +69,5 @@ footer {
 .inner_footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
+} */
 
